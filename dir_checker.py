@@ -103,11 +103,12 @@ if len(contents) == 0:  # do nothing
 
 now = datetime.datetime.now()
 # there are files so time to notify someone about it
+dirName = os.path.basename(os.path.normpath(cfg.directoryToMonitor))
 emailText = (
     "There are {} files in the directory '{}' that are ready to be"
     " reviewed as of {}.".format(
         len(contents),
-        os.path.dirname(cfg.directoryToMonitor),
+        dirName,
         now.strftime("%b %d %Y %H:%M:%S"),
     )
 )
