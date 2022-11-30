@@ -12,11 +12,10 @@ A downloader software downloads and stores PDF's in a folder on a server. I need
 Because password safety is a thing, on first run through, dir-checker will read the config and null the password field to ensure that the password is no longer stored as plain text. The password is stored in the system's keyring. 
 
 # Dev Env Setup
-Create virtual environment
-    python -m venv env
-
-Activate env then restore packages from requirements.txt 
-    pip install -r requirements.txt
+Make sure you have pipenv installed.
+- cd into dir
+- pipenv install
+(can youse --dev argument but there are no dev packages installed at this stage)
 
 ## Testing
 You can test locally by creating a dummy STMP server on your machine. 
