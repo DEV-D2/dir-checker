@@ -2,7 +2,6 @@ import config
 import datetime 
 import dir_checker
 import os
-import py2exe
 import sys
 
 # run script from main as per best practice    
