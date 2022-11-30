@@ -1,0 +1,107 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "21f1b62394781b69e235bbba02998df28fdace74b99da055c6158975b3f84ecc"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.11"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "base58": {
+            "hashes": [
+                "sha256:11a36f4d3ce51dfc1043f3218591ac4eb1ceb172919cebe05b52a5bcc8d245c2",
+                "sha256:c5d0cb3f5b6e81e8e35da5754388ddcc6d0d14b6c6a132cb93d69ed580a7278c"
+            ],
+            "markers": "python_version >= '3.5'",
+            "version": "==2.1.1"
+        },
+        "bitmerchant": {
+            "hashes": [
+                "sha256:01f5584625e7988ce4d8a32527e1160eaa00265042e6db1f29b04398dafd88e0",
+                "sha256:fba4c2091084ed0b4f9faac0ebbba8d255c5ccd3a18e7f877ce13aab71649ddc"
+            ],
+            "version": "==0.1.8"
+        },
+        "cachetools": {
+            "hashes": [
+                "sha256:6a94c6402995a99c3970cc7e4884bb60b4a8639938157eeed436098bf9831757",
+                "sha256:f9f17d2aec496a9aa6b76f53e3b614c965223c061982d434d160f930c698a9db"
+            ],
+            "markers": "python_version ~= '3.7'",
+            "version": "==5.2.0"
+        },
+        "ecdsa": {
+            "hashes": [
+                "sha256:190348041559e21b22a1d65cee485282ca11a6f81d503fddb84d5017e9ed1e49",
+                "sha256:80600258e7ed2f16b9aa1d7c295bd70194109ad5a30fdee0eaeefef1d4c559dd"
+            ],
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==0.18.0"
+        },
+        "future": {
+            "hashes": [
+                "sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"
+            ],
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==0.18.2"
+        },
+        "keychain": {
+            "hashes": [
+                "sha256:49747bd9a38e05f539d0a89a0894747573ff1bdda1dc8dee3cc78408a105c4d1"
+            ],
+            "index": "pypi",
+            "version": "==0.14.2.0"
+        },
+        "keylib": {
+            "hashes": [
+                "sha256:8d9d3ffdd3d61ad787c5496c3b5ad41b933d6ec9b30fb7514a7af99ccf74019c"
+            ],
+            "version": "==0.1.1"
+        },
+        "pefile": {
+            "hashes": [
+                "sha256:a5488a3dd1fd021ce33f969780b88fe0f7eebb76eb20996d7318f307612a045b"
+            ],
+            "markers": "python_full_version >= '3.6.0'",
+            "version": "==2022.5.30"
+        },
+        "py2exe": {
+            "hashes": [
+                "sha256:0094278df7af3ff0f8603067a2c19b9bc6beecd6a804b87c14b2f1d16da260f4",
+                "sha256:07ae96b371f9af145a47ce5486eafe693842e7c77cf8830fa1cb688ed53191fd",
+                "sha256:6e47a457fd0f191eeb91f928c271536f71e643571d1a0da8cc2ee8f617190ff1",
+                "sha256:c3f56edda962b4e1a90d6502277bf4b7cb195a8fc55f8e355f76928d9b7bbb9c",
+                "sha256:da32760a4b479eb4ba6c2638a02a9b1c1b413b7975d5ffa097558811047a9a8b",
+                "sha256:dd7607f35008e8f71f7c68a24233ea1640eb5a4f09518628939a5a1c8fa5c0cc",
+                "sha256:dfe70625c5dac1bd3d48006703ceb69bbe8ec6b4ea98e47388b0a8b1dced81b4",
+                "sha256:e7a7f1e061d1a925d83c687764f3550ecdd15057e49d2afb7341b96fae66dac4"
+            ],
+            "index": "pypi",
+            "version": "==0.13.0.0"
+        },
+        "six": {
+            "hashes": [
+                "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
+                "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==1.16.0"
+        },
+        "utilitybelt": {
+            "hashes": [
+                "sha256:dafdb6a2dbb32e71d67a9cd35afd7c2e4993ec094e7ddb547df4cf46788770a4"
+            ],
+            "version": "==0.2.6"
+        }
+    },
+    "develop": {}
+}
